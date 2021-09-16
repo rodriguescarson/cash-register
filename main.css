@@ -16,20 +16,11 @@ a {
   text-decoration: none;
 }
 
-:root {
-  --primary-color: #7c3aed;
-}
-
 body {
   font-family: "Montserrat", sans-serif;
   min-width: 100vw;
 }
 
-/* Container */
-.container {
-  margin: 4rem auto 7rem;
-  text-align: center;
-}
 
 .heading {
   color: var(--primary-color);
@@ -146,13 +137,17 @@ nav > a {
   padding: 0 0.5rem;
 }
 
+main{
+  margin: 4rem auto 7rem;
+  text-align: center;
+}
 .footer {
   background-color: var(--primary-color);
   padding: 2rem 1rem;
   text-align: center;
   color: white;
   border-top-right-radius: 1rem;
-
+  margin-top: 0vh;
 }
 
 .footer .link {
